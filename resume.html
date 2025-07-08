@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume</title>
+  <link rel="stylesheet" href="resume.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    button {
+      background-color: rgb(48, 175, 235);
+      color: white;
+      border-radius: 30px;
+      border: none;
+      padding: 10px 20px;
+      margin: 20px;
+    }
+    button:hover {
+      background-color: black;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: rgb(34, 165, 226);
+      padding: 20px;
+    }
+    h1,h2, h3 {
+      background-color: grey;
+      padding: 15px;
+      color: rgb(72, 187, 240);
+      border-left: 3px solid #ccc;
+      border-radius: 4px;
+    }
+    p {
+      color: black;
+    }
+    .kumar{
+      color: black;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .left-info {
+      flex: 1;
+    }
+    .right-summary {
+      flex: 2;
+      
+      color: white;
+      padding: 15px;
+      border-left: 3px solid #ccc;
+      border-radius: 4px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .section-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .project {
+      background-color: white;
+      padding: 15px;
+      border-left: 3px solid #ccc;
+      border-radius: 4px;
+      break-inside: avoid;
+    }
+    .normal-weight {
+      font-weight: normal;
+    }
+    @media (max-width: 768px) {
+      .section-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="resume-content">
+      <div class="top-row">
+        <div class="left-info">
+          <h1>Anirudh Manoj</h1>
+          
+        </div>
+        <div class="right-summary">
+          <p>Enthusiastic software developer with a passion for building scalable web applications and working across the full stack. Known for quick learning and clear communication.</p>
+        </div>
+      </div>
+      <p class="kumar">Email: anirudhmanoj2609@gmail.com</p>
+          <p class="kumar">Phone: +91 95678 33365</p>
+          <p class="kumar">Github: github.com/AnirudhManoj2609</p>
+          <p class="kumar">Location: Kochi, India</p>
+      <div class="section">
+        <h2>Projects</h2>
+        <div class="section-grid">
+          <div class="project">
+            <h3>AI Powered VR interactive healing space</h3>
+            <ul>
+              <li>Developed a VR society where users could interact, learn and collaborate in a 3D VR Environment.</li>
+              <li>Implemented AI/ML based training sessions and progress tracking.</li>
+              <li>The platform supports learning and differently abled individuals of any age category.</li>
+            </ul>
+          </div>
+          <div class="project">
+            <h3>Operating System</h3>
+            <ul>
+              <li>Built a demo version of MS-DOS to learn low-level programming concepts.</li>
+              <li>Created a functioning kernel and bootloader.</li>
+              <li>Simulated hardware processes with a virtual floppy disk.</li>
+            </ul>
+          </div>
+          <div class="project">
+            <h3>VLLang: Language learning App</h3>
+            <ul>
+              <li>Developing a Unity-based app for learning languages through real-world interaction simulation.</li>
+              <li>Enhances language learning for real-life use cases.</li>
+            </ul>
+          </div>
+          <div class="project">
+            <h3>Aaka: ML Library</h3>
+            <ul>
+              <li>Building a machine learning library with optimized training algorithms.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <div class="section-grid">
+          <div class="project">
+            <h3>Bachelor of Technology in CS: <span class="normal-weight">FISAT</span></h3>
+            <ul>
+              <li>GPA: 8.6</li>
+              <li>Relevant coursework: Data Structures, Algorithms, Operating System, Virtual Reality, DBMS, AI/ML</li>
+            </ul>
+          </div>
+          <div class="project">
+            <h3>CBSE XII: <span class="normal-weight">Palghat Lions School</span></h3>
+            <ul>
+              <li>Percentage: 83%</li>
+            </ul>
+          </div>
+          <div class="project">
+            <h3>CBSE X: <span class="normal-weight">Palghat Lions School</span></h3>
+            <ul>
+              <li>Percentage: 93%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="section-grid">
+          <div class="project">
+            <h3>General Purpose Programming</h3>
+            <ul><li>Python</li><li>C/C++</li><li>Java</li><li>NASM(Assembly)</li><li>C#</li></ul>
+          </div>
+          <div class="project">
+            <h3>Game Development</h3>
+            <ul><li>Unity</li><li>Blender</li><li>Krita</li></ul>
+          </div>
+          <div class="project">
+            <h3>Database Querying</h3>
+            <ul><li>MySQL</li><li>PostgreSQL</li></ul>
+          </div>
+          <div class="project">
+            <h3>Build Tools</h3>
+            <ul><li>Makefile</li><li>CMake</li><li>Maven</li></ul>
+          </div>
+          <div class="project">
+            <h3>Web Frameworks</h3>
+            <ul><li>Spring Boot</li><li>Node + Express.js</li><li>Boost.Asio</li><li>NativeWebSocket in Unity</li></ul>
+          </div>
+          <div class="project">
+            <h3>ML Frameworks</h3>
+            <ul><li>TensorFlow</li><li>Scikit-learn</li><li>Aaka</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Internships and Courses</h2>
+        <div class="section-grid">
+          <div class="project">
+            <h3>Assembly Language for Hackers</h3>
+            <ul><li>Mastered x86 architecture using NASM.</li></ul>
+          </div>
+          <div class="project">
+            <h3>Complete C++ from Basics</h3>
+            <ul><li>Gained expertise in C++ and developed software using it.</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Societies</h2>
+        <div class="section-grid">
+          <div class="project">
+            <h3>Federal Horizon Development (FHC)</h3>
+            <ul>
+              <li>Secretary and tutor at FHC</li>
+              <li>2024 - Present</li>
+              <li>Guidance and project mentorship for members</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Links</h2>
+        <div class="section-grid">
+          <div class="project">
+            <ul>
+              <li>GitHub: <a href="https://github.com/AnirudhManoj2609" target="_blank">AnirudhManoj2609</a></li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/anirudh-manoj" target="_blank">Anirudh Manoj</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Declaration</h2>
+        <div class="project">
+          <p>I hereby declare that all the information provided above is true to the best of my knowledge.</p>
+        </div>
+      </div>
+
+      <div class="top-row">
+        <div class="left-info">
+          <h3>Date: <span class="normal-weight">08/07/2025</span></h3>
+          <h3>Place: <span class="normal-weight">Angamay</span></h3>
+        </div>
+      </div>
+    </div>
+    <div class="botton">
+      <button onclick="downloadResume()">Download as PDF</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    function downloadResume() {
+      const element = document.getElementById('resume-content');
+      const opt = {
+        margin: [0.5, 0.5],
+        filename: 'Anirudh_Manoj_Resume.pdf',
+        image: { type: 'jpeg', quality: 0.95 }, // slightly reduced quality
+        html2canvas: { scale: 1.5, useCORS: true, scrollY: 0 }, // reduced scale
+        jsPDF: { unit: 'in', format: [8, 10], orientation: 'portrait' }, // custom size
+        pagebreak: { mode: ['css', 'legacy'] }
+      };
+      html2pdf().set(opt).from(element).save();
+    };
+
+  </script>
+</body>
+</html>
